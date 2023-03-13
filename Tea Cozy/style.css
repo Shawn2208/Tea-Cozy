@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    opacity: 0.9;
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row-reverse;
+margin-top: -61px;
+
+}
+  
+nav ul {
+display: flex;
+list-style: none;
+}
+  
+nav ul li {
+margin-right: 20px;
+
+}
+a {
+    text-decoration: none;
+    color: seashell;
+}
+
+.our-mission {
+    background-image: url(img-mission-background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 700px;
+    max-width: auto;
+    text-align: center;
+}
+h2 {
+    position: absolute;
+    top: 450px;
+    background-color: black;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+h3 {
+    text-align: center;
+}
+.totm {
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px,350px));
+	grid-gap: 40px;
+	margin-top: 50px;
+    justify-content: center;
+}
+#ave {
+    position: relative;
+    left: 570px;
+}
+#bizzare {
+    position: relative;
+    right: 218px;
+}
+
+#locations {
+    position: relative;
+    background-image: url(img-locations-background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 700px;
+    max-width: auto;
+    text-align: center;
+}
+#downtown {
+    position: relative;
+    bottom: 500px;
+    left: 219px;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+}
+#bayside {
+    position: relative;
+    bottom: 704px;
+    left: 604px;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+}
+#oakdale {
+    position: relative;
+    bottom: 904px;
+    left: 1010px;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+}
+#Teac,h5 {
+    text-align: center;
+}
